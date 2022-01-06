@@ -1,12 +1,21 @@
 body{
-    margin-top: 50px;
-    margin-left: 50px;
+    margin: 50px 0px 0px 0px;
     font-family: 'Roboto Slab', serif;
 }
 h1{
     font-size: 50px;
     font-weight: bold;
-    margin-top: 0%;
+}
+h2{
+    font-size: 40px;
+}
+#h2-custom-font{
+    font-size: 30px;
+    font-weight: bold;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
 }
 .custom-color{
     color: rgb(238, 73, 73);
@@ -28,8 +37,6 @@ h1{
 }
 .flexible-div img{
     width: 70%;
-}
-img{
     margin-left: 50px;
 }
 .details-button{
@@ -40,3 +47,80 @@ img{
     border-radius: 7px;
     background-color: rgb(236, 154, 0);
 }
+#text-centering{
+    text-align: center;
+}
+.mission-sec{
+    margin-bottom: 150px;
+}
+.mission-div{
+    display: flex;
+    width: 85%;
+    margin-left: 5%;
+    padding: 2%;
+
+}
+.mission-div img{
+    width: 45%;
+}
+#mission{
+    background-color: rgb(202, 248, 250);
+    margin-left: 50px;
+    margin-right: 20px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+#vission{
+    background-color: rgb(243, 200, 207);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 25px;
+    border-radius: 15px;
+}
+#goal{
+    background-color: rgb(255, 196, 141);
+    margin-left: 20px;
+    margin-right: 90px;
+    padding: 25px;
+    border-radius: 15px;
+}
+.frontend-sec{
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: 30px 60px;
+    margin-bottom: 150px;
+}
+.global-sec{
+    background-image: url(images/shapes/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 1100px 200px;
+    margin-bottom: 150px;
+}
+.quote-sec{
+     width: 100%;
+     display: table; 
+     margin-bottom: 150px; 
+     height: 80%px;
+     background-image: linear-gradient(rgb(243, 232, 232), rgb(243, 243, 243));
+    
+}
+.quote-div{
+    text-align: center;
+    margin: 70px 90px 150px 80px;
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    padding: 25px;
+}
+footer p{
+    font-style: normal;
+    color: darkgray;
+    font-size: bold;
+    text-shadow: darkcyan;
+}
+
